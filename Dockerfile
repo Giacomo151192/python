@@ -1,4 +1,4 @@
-from alpine:latest
+FROM alpine:3.17
 RUN apk add --no-cache py3-pip \
     && pip3 install --upgrade pip
 
