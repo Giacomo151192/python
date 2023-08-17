@@ -1,4 +1,4 @@
-FROM docker.io/registry/python:latest
+FROM python:3.11
 
 WORKDIR /app
 COPY . /app
