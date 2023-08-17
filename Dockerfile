@@ -5,5 +5,5 @@ COPY . /app
 
 EXPOSE 5000
 
-ENTRYPOINT ["python3"]
+ENTRYPOINT ["python"]
 CMD ["helloworld.py"]
